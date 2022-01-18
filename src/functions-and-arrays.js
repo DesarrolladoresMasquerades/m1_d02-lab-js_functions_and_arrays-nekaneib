@@ -56,7 +56,7 @@ const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
 function averageNumbers(number) {
   if (number.length === 0){
     return null
-} if (number.length === 1){
+} else if (number.length === 1){
   return number / 2
 }
 }
